@@ -1,0 +1,360 @@
+﻿Id          PrimeiroNome         UltimoNome           Genero
+----------- -------------------- -------------------- ------
+1           James                Stewart              M
+2           Deborah              Kerr                 F
+3           Peter                OToole               M
+4           Robert               DeNiro               M
+6           Harrison             Ford                 M
+7           Stephen              Baldwin              M
+8           Jack                 Nicholson            M
+9           Mark                 Wahlberg             M
+10          Woody                Allen                M
+11          Claire               Danes                F
+12          Tim                  Robbins              M
+13          Kevin                Spacey               M
+14          Kate                 Winslet              F
+15          Robin                Williams             M
+16          Jon                  Voight               M
+17          Ewan                 McGregor             M
+18          Christian            Bale                 M
+19          Maggie               Gyllenhaal           F
+20          Dev                  Patel                M
+21          Sigourney            Weaver               F
+22          David                Aston                M
+23          Ali                  Astin                F
+
+(22 rows affected)
+
+Id          IdAtor      IdFilme     Papel
+----------- ----------- ----------- ------------------------------
+1           1           1           John Scottie Ferguson
+2           2           2           Miss Giddens
+3           3           3           T.E. Lawrence
+4           4           4           Michael
+5           6           6           Rick Deckard
+6           7           8           McManus
+7           9           10          Eddie Adams
+8           10          11          Alvy Singer
+9           11          12          San
+10          12          13          Andy Dufresne
+11          13          14          Lester Burnham
+12          14          15          Rose DeWitt Bukater
+13          15          16          Sean Maguire
+14          16          17          Ed
+15          17          18          Renton
+16          19          20          Elizabeth Darko
+17          20          21          Older Jamal
+18          21          22          Ripley
+19          13          23          Bobby Darin
+20          8           9           J.J. Gittes
+21          18          19          Alfred Borden
+
+(21 rows affected)
+
+Id          Nome                                               Ano         Duracao
+----------- -------------------------------------------------- ----------- -----------
+1           Um Corpo que Cai                                   1958        128
+2           Os Inocentes                                       1961        100
+3           Lawrence da Arábia                                 1962        216
+4           O Franco Atirador                                  1978        183
+5           Amadeus                                            1984        160
+6           Blade Runner                                       1982        117
+7           De Olhos Bem Fechados                              1999        159
+8           Os Suspeitos                                       1995        106
+9           Chinatown                                          1974        130
+10          Boogie Nights - Prazer Sem Limites                 1997        155
+11          Noivo Neurótico, Noiva Nervosa                     1977        93
+12          Princesa Mononoke                                  1997        134
+13          Um Sonho de Liberdade                              1994        142
+14          Beleza Americana                                   1999        122
+15          Titanic                                            1997        194
+16          Gênio Indomável                                    1997        126
+17          Amargo pesadelo                                    1972        109
+18          Trainspotting - Sem Limites                        1996        94
+19          O Grande Truque                                    2006        130
+20          Donnie Darko                                       2001        113
+21          Quem Quer Ser um Milionário?                       2008        120
+22          Aliens, O Resgate                                  1986        137
+23          Uma Vida sem Limites                               2004        118
+24          Avatar                                             2009        162
+25          Coração Valente                                    1995        178
+26          Os Sete Samurais                                   1954        207
+27          A Viagem de Chihiro                                2001        125
+28          De Volta para o Futuro                             1985        116
+
+(28 rows affected)
+
+Id          IdGenero    IdFilme
+----------- ----------- -----------
+1           1           22
+2           2           17
+3           2           3
+4           3           12
+5           5           11
+6           6           8
+7           6           13
+8           7           26
+9           7           28
+10          7           18
+11          7           21
+12          8           2
+13          9           23
+14          10          7
+15          10          27
+16          10          1
+17          11          14
+18          12          6
+19          13          4
+
+(19 rows affected)
+
+Id          Genero
+----------- --------------------
+1           Ação
+2           Aventura
+3           Animação
+4           Biografia
+5           Comédia
+6           Crime
+7           Drama
+8           Horror
+9           Musical
+10          Mistério
+11          Romance
+12          Suspense
+13          Guerra
+
+(13 rows affected)
+
+Nome                                               Ano
+-------------------------------------------------- -----------
+Um Corpo que Cai                                   1958
+Os Inocentes                                       1961
+Lawrence da Arábia                                 1962
+O Franco Atirador                                  1978
+Amadeus                                            1984
+Blade Runner                                       1982
+De Olhos Bem Fechados                              1999
+Os Suspeitos                                       1995
+Chinatown                                          1974
+Boogie Nights - Prazer Sem Limites                 1997
+Noivo Neurótico, Noiva Nervosa                     1977
+Princesa Mononoke                                  1997
+Um Sonho de Liberdade                              1994
+Beleza Americana                                   1999
+Titanic                                            1997
+Gênio Indomável                                    1997
+Amargo pesadelo                                    1972
+Trainspotting - Sem Limites                        1996
+O Grande Truque                                    2006
+Donnie Darko                                       2001
+Quem Quer Ser um Milionário?                       2008
+Aliens, O Resgate                                  1986
+Uma Vida sem Limites                               2004
+Avatar                                             2009
+Coração Valente                                    1995
+Os Sete Samurais                                   1954
+A Viagem de Chihiro                                2001
+De Volta para o Futuro                             1985
+
+(28 rows affected)
+
+Nome                                               Ano
+-------------------------------------------------- -----------
+Os Sete Samurais                                   1954
+Um Corpo que Cai                                   1958
+Os Inocentes                                       1961
+Lawrence da Arábia                                 1962
+Amargo pesadelo                                    1972
+Chinatown                                          1974
+Noivo Neurótico, Noiva Nervosa                     1977
+O Franco Atirador                                  1978
+Blade Runner                                       1982
+Amadeus                                            1984
+De Volta para o Futuro                             1985
+Aliens, O Resgate                                  1986
+Um Sonho de Liberdade                              1994
+Os Suspeitos                                       1995
+Coração Valente                                    1995
+Trainspotting - Sem Limites                        1996
+Titanic                                            1997
+Gênio Indomável                                    1997
+Princesa Mononoke                                  1997
+Boogie Nights - Prazer Sem Limites                 1997
+De Olhos Bem Fechados                              1999
+Beleza Americana                                   1999
+A Viagem de Chihiro                                2001
+Donnie Darko                                       2001
+Uma Vida sem Limites                               2004
+O Grande Truque                                    2006
+Quem Quer Ser um Milionário?                       2008
+Avatar                                             2009
+
+(28 rows affected)
+
+Nome                                               Ano         Duracao
+-------------------------------------------------- ----------- -----------
+De Volta para o Futuro                             1985        116
+
+(1 row affected)
+
+Nome                                               Ano         Duracao
+-------------------------------------------------- ----------- -----------
+Boogie Nights - Prazer Sem Limites                 1997        155
+Princesa Mononoke                                  1997        134
+Titanic                                            1997        194
+Gênio Indomável                                    1997        126
+
+(4 rows affected)
+
+Nome                                               Ano         Duracao
+-------------------------------------------------- ----------- -----------
+O Grande Truque                                    2006        130
+Donnie Darko                                       2001        113
+Quem Quer Ser um Milionário?                       2008        120
+Uma Vida sem Limites                               2004        118
+Avatar                                             2009        162
+A Viagem de Chihiro                                2001        125
+
+(6 rows affected)
+
+Nome                                               Ano         Duracao
+-------------------------------------------------- ----------- -----------
+Os Suspeitos                                       1995        106
+Amargo pesadelo                                    1972        109
+Donnie Darko                                       2001        113
+De Volta para o Futuro                             1985        116
+Blade Runner                                       1982        117
+Uma Vida sem Limites                               2004        118
+Quem Quer Ser um Milionário?                       2008        120
+Beleza Americana                                   1999        122
+A Viagem de Chihiro                                2001        125
+Gênio Indomável                                    1997        126
+Um Corpo que Cai                                   1958        128
+Chinatown                                          1974        130
+O Grande Truque                                    2006        130
+Princesa Mononoke                                  1997        134
+Aliens, O Resgate                                  1986        137
+Um Sonho de Liberdade                              1994        142
+
+(16 rows affected)
+
+Ano         Quantidade
+----------- -----------
+1997        4
+1999        2
+2001        2
+1995        2
+1996        1
+2004        1
+2006        1
+2008        1
+2009        1
+1954        1
+1958        1
+1961        1
+1962        1
+1972        1
+1974        1
+1977        1
+1978        1
+1982        1
+1984        1
+1985        1
+1986        1
+1994        1
+
+(22 rows affected)
+
+Id          PrimeiroNome         UltimoNome           Genero
+----------- -------------------- -------------------- ------
+1           James                Stewart              M
+3           Peter                OToole               M
+4           Robert               DeNiro               M
+6           Harrison             Ford                 M
+7           Stephen              Baldwin              M
+8           Jack                 Nicholson            M
+9           Mark                 Wahlberg             M
+10          Woody                Allen                M
+12          Tim                  Robbins              M
+13          Kevin                Spacey               M
+15          Robin                Williams             M
+16          Jon                  Voight               M
+17          Ewan                 McGregor             M
+18          Christian            Bale                 M
+20          Dev                  Patel                M
+22          David                Aston                M
+
+(16 rows affected)
+
+Id          PrimeiroNome         UltimoNome           Genero
+----------- -------------------- -------------------- ------
+23          Ali                  Astin                F
+11          Claire               Danes                F
+2           Deborah              Kerr                 F
+14          Kate                 Winslet              F
+19          Maggie               Gyllenhaal           F
+21          Sigourney            Weaver               F
+
+(6 rows affected)
+
+Nome                                               Genero
+-------------------------------------------------- --------------------
+Aliens, O Resgate                                  Ação
+Amargo pesadelo                                    Aventura
+Lawrence da Arábia                                 Aventura
+Princesa Mononoke                                  Animação
+Noivo Neurótico, Noiva Nervosa                     Comédia
+Os Suspeitos                                       Crime
+Um Sonho de Liberdade                              Crime
+Os Sete Samurais                                   Drama
+De Volta para o Futuro                             Drama
+Trainspotting - Sem Limites                        Drama
+Quem Quer Ser um Milionário?                       Drama
+Os Inocentes                                       Horror
+Uma Vida sem Limites                               Musical
+De Olhos Bem Fechados                              Mistério
+A Viagem de Chihiro                                Mistério
+Um Corpo que Cai                                   Mistério
+Beleza Americana                                   Romance
+Blade Runner                                       Suspense
+O Franco Atirador                                  Guerra
+
+(19 rows affected)
+
+Nome                                               Genero
+-------------------------------------------------- --------------------
+De Olhos Bem Fechados                              Mistério
+A Viagem de Chihiro                                Mistério
+Um Corpo que Cai                                   Mistério
+
+(3 rows affected)
+
+Nome                                               PrimeiroNome         UltimoNome           Papel
+-------------------------------------------------- -------------------- -------------------- ------------------------------
+Um Corpo que Cai                                   James                Stewart              John Scottie Ferguson
+Os Inocentes                                       Deborah              Kerr                 Miss Giddens
+Lawrence da Arábia                                 Peter                OToole               T.E. Lawrence
+O Franco Atirador                                  Robert               DeNiro               Michael
+Blade Runner                                       Harrison             Ford                 Rick Deckard
+Os Suspeitos                                       Stephen              Baldwin              McManus
+Boogie Nights - Prazer Sem Limites                 Mark                 Wahlberg             Eddie Adams
+Noivo Neurótico, Noiva Nervosa                     Woody                Allen                Alvy Singer
+Princesa Mononoke                                  Claire               Danes                San
+Um Sonho de Liberdade                              Tim                  Robbins              Andy Dufresne
+Beleza Americana                                   Kevin                Spacey               Lester Burnham
+Titanic                                            Kate                 Winslet              Rose DeWitt Bukater
+Gênio Indomável                                    Robin                Williams             Sean Maguire
+Amargo pesadelo                                    Jon                  Voight               Ed
+Trainspotting - Sem Limites                        Ewan                 McGregor             Renton
+Donnie Darko                                       Maggie               Gyllenhaal           Elizabeth Darko
+Quem Quer Ser um Milionário?                       Dev                  Patel                Older Jamal
+Aliens, O Resgate                                  Sigourney            Weaver               Ripley
+Uma Vida sem Limites                               Kevin                Spacey               Bobby Darin
+Chinatown                                          Jack                 Nicholson            J.J. Gittes
+O Grande Truque                                    Christian            Bale                 Alfred Borden
+
+(21 rows affected)
+
+
+Completion time: 2024-11-19T23:51:37.3778831-03:00
